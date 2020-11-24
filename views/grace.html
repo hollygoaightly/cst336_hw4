@@ -1,0 +1,42 @@
+<%- include('partials/header.ejs') %>
+            <a href="/">Home</a>
+            <a href="/ada">Ada Lovelace</a>
+            <a href="/bombe">Bombe</a>
+            <a href="/grace"><span id="current">Grace Hopper</span></a>
+        </nav>
+        <br /><br />
+        <main>
+            <figure>
+                <img src="img/grace.png" alt="grace">
+            </figure>
+            
+            <div>
+                <p>Grace Brewster Murray Hopper was born in 1906 and grew up to become an American computer scientist and United States Navy rear admiral.</p>
+                <p>She was one of the first programmers of the Harvard Mark I computer, The IBM Automatic Sequence Controlled Calculator (ASCC).</p>
+                <p>Hooper also invented one of the first linkers, or program compiler that produces a single executable.</p>
+                <p>She also put forth the first ever theory of machine-independent programming languages, and then went on to create the FLOW-MATIC programming language, which would be further extended into the high level programming language COBOL.</p>
+                
+                <br /><br />
+            </div>
+        </main>
+         <div id="summary">
+            <table>
+                <tr id="table-header">
+                    <td><strong>Background</strong></td>
+                    <td><strong>Achivements</strong></td>
+                </tr>
+                <tr class="table-row">
+                    <td>1906-1992</td>
+                    <td>one of first programmers of Harvard Mark I computer</td>
+                </tr>
+                <tr class="table-row">
+                    <td>Ph.D. in mathematics from Yale</td>
+                    <td>Invented one of the first linkers (compilers)</td>
+                </tr>
+                <tr class="table-row">
+                    <td>US Navy</td>
+                    <td>One of the first to theorize about machine independent programming languages</td>
+                </tr>
+            </table>
+        </div>
+        <%- include('partials/footer.ejs') %>

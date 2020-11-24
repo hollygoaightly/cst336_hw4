@@ -1,0 +1,40 @@
+<%- include('partials/header.ejs') %>
+            <a href="/">Home</a>
+            <a href="/ada"><span id="current">Ada Lovelace</span></a>
+            <a href="/bombe">Bombe</a>
+            <a href="/grace">Grace Hopper</a>
+        </nav>
+        <br /><br />
+        <main>
+            <figure>
+                <img src="img/ada.png" alt="ada">
+            </figure>
+            <div>
+                <p>Augusta Ada King, Countess of Lovelace was an English mathemetician and writer from the 19th century.</p>
+                <p>Tutored in math from an early age, her academic career lead to her aquaintance with Charles Babbage.</p>
+                <p>This lead to her involvement in the design of the first general-purpose computer that could be described in modern terms as Turing-complete.</p>
+                <p>In her work, Lovelace believed that the machine had further applications beyond arithmetic and wrote the first algorithm intended for a computer. </p>
+                <br /><br />
+            </div>
+        </main>
+        <div id="summary">
+            <table>
+                <tr id="table-header">
+                    <td><strong>Background</strong></td>
+                    <td><strong>Achivements</strong></td>
+                </tr>
+                <tr class="table-row">
+                    <td>1815-1852</td>
+                    <td>Worked on the first programmable computer</td>
+                </tr>
+                <tr class="table-row">
+                    <td>English mathemetician and writer</td>
+                    <td>First to recognize algorithmic capacity of computing</td>
+                </tr>
+                <tr class="table-row">
+                    <td>Tutored in math at an early age</td>
+                    <td>Published first algorithm intended to be executed by a computer</td>
+                </tr>
+            </table>
+        </div>
+<%- include('partials/footer.ejs') %>

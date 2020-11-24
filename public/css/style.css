@@ -1,0 +1,69 @@
+body {
+    background-color:black;
+    color:gray;
+}
+header, main, nav, footer {
+    text-align:center;
+}
+nav a {
+    padding:15px;
+    padding-bottom:4px;
+    font-size:1.8em;
+    font-family:'Cinzel';
+    text-decoration:none;
+    color:white;        
+}
+nav a:hover {    /*pseudo class*/
+    border-bottom:2px orange solid;
+    font-size:2em;
+    transition:.5s;    /*transition effect*/
+}
+figure {
+   border:2px orange solid; 
+}
+#current {
+    color: orange;
+}
+main {
+    display:flex;
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom:50px;
+}
+div {
+    text-align:left;
+}
+table {
+    margin: 0px auto;
+    text-align:center;
+}
+td {
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom:10px;
+    text-align:left;
+}
+#table-header {
+    color: white;
+    font-family:'Cinzel';
+}
+footer li {
+    text-align:left;
+}
+footer li a {
+    color: orange;
+    text-align:left;
+}
+footer li a:hover {
+    color: white;
+}
+h1 {
+    font-family:'Cinzel';
+    font-size:4em;
+    margin-bottom:0px;
+}
+footer {
+    margin-top:50px;
+    font-size: 10px;
+    color:white;
+}
